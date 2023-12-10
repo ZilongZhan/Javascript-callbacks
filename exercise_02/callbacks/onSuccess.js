@@ -8,3 +8,9 @@
  * output:
  *  - string: User with email {email} has been correctly created
  */
+
+const onSuccess = (email) => {
+  return `User with email ${email} has been correctly created`;
+};
+
+export default onSuccess;

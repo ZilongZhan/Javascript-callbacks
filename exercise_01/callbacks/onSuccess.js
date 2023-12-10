@@ -8,3 +8,9 @@
  * output:
  *  - array
  */
+
+const onSuccess = (value) => {
+  return value.split(" ");
+};
+
+export default onSuccess;
