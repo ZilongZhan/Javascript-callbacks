@@ -12,7 +12,7 @@ describe("Given function transformStringToArray", () => {
       const result = transformStringToArray(value, onError, onSuccess);
 
       // Assert
-      expect(result.length).toBeGreaterThan(0);
+      expect(result.length).toBe(2);
     });
   });
 
