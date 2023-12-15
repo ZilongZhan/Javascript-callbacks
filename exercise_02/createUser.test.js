@@ -12,7 +12,7 @@ describe("Given createUser function", () => {
   const mockOnSuccess = jest
     .fn()
     .mockImplementation(
-      (email) => `User with email ${email} has been correctly created`
+      (email) => `User with email ${email} has been correctly created`,
     );
 
   test("When email is empty Then expected error string should be returned", () => {

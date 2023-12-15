@@ -47,7 +47,7 @@ describe("Given function validateString", () => {
 
   test("When value is object then false boolean should be returned", () => {
     // Arrange
-    const value = {myObject: "Hello"};
+    const value = { myObject: "Hello" };
 
     // Act
     const result = validateString(value);
