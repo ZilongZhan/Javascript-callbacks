@@ -9,6 +9,11 @@
  *  - array
  */
 
+/**
+ * @description Returns array with words in the input string
+ * @param {string} value 
+ * @returns {Array}
+ */
 const onSuccess = (value) => {
   return value.split(" ");
 };

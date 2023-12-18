@@ -16,6 +16,13 @@ import { validateString } from "../helpers/validateString";
  *  - string
  */
 
+/**
+ * @description Creates a user based on the provided email
+ * @param {string} email 
+ * @param {Function} onError 
+ * @param {Function} onSuccess 
+ * @returns {string}
+ */
 const createUser = (email, onError, onSuccess) => {
   const randomValue = Math.random();
 
