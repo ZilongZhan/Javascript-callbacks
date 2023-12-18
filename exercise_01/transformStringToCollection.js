@@ -17,9 +17,9 @@ import { validateString } from "../helpers/validateString";
 
 /**
  * @description Transforms string into array
- * @param {string} value 
- * @param {Function} onError 
- * @param {Function} onSuccess 
+ * @param {string} value
+ * @param {Function} onError
+ * @param {Function} onSuccess
  * @returns {Array}
  */
 const transformStringToArray = (value, onError, onSuccess) => {

@@ -1,6 +1,6 @@
 /**
  * @description Validates input string and returns a boolean
- * @param {string} value 
+ * @param {string} value
  * @returns {boolean}
  */
 export const validateString = (value) => {

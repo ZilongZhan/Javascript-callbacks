@@ -11,7 +11,7 @@
 
 /**
  * @description Returns success string message
- * @param {string} email 
+ * @param {string} email
  * @returns {string}
  */
 const onSuccess = (email) => {

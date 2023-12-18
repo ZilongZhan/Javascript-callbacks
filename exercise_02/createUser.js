@@ -18,9 +18,9 @@ import { validateString } from "../helpers/validateString";
 
 /**
  * @description Creates a user based on the provided email
- * @param {string} email 
- * @param {Function} onError 
- * @param {Function} onSuccess 
+ * @param {string} email
+ * @param {Function} onError
+ * @param {Function} onSuccess
  * @returns {string}
  */
 const createUser = (email, onError, onSuccess) => {

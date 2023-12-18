@@ -11,7 +11,7 @@
 
 /**
  * @description Returns array with words in the input string
- * @param {string} value 
+ * @param {string} value
  * @returns {Array}
  */
 const onSuccess = (value) => {
