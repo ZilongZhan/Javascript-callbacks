@@ -1,3 +1,5 @@
+import { validateString } from "../helpers/validateString";
+
 /**
  * Define 'transformStringToArray' function and signature (JSDocs)
  *
@@ -12,3 +14,20 @@
  * output
  *  - array
  */
+
+/**
+ * @description Transforms string into array
+ * @param {string} value
+ * @param {Function} onError
+ * @param {Function} onSuccess
+ * @returns {Array}
+ */
+const transformStringToArray = (value, onError, onSuccess) => {
+  if (validateString(value)) {
+    return onSuccess(value);
+  }
+
+  return onError();
+};
+
+export default transformStringToArray;
